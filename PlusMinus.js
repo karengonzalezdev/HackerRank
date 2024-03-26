@@ -35,6 +35,9 @@ function plusMinus(arr) {
 
 }
 
+//example input 
+plusMinus([-4,3,-9,0,4,1]);
+
 function main() {
     const n = parseInt(readLine().trim(), 10);
 
@@ -42,6 +45,3 @@ function main() {
 
     plusMinus(arr);
 }
-
-//example input 
-plusMinus([-4,3,-9,0,4,1]);

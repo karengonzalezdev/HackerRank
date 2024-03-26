@@ -35,11 +35,12 @@ function miniMaxSum(arr) {
 
 }
 
+//example input
+miniMaxSum([1,2,3,4,5]);
+
 function main() {
 
     const arr = readLine().replace(/\s+$/g, '').split(' ').map(arrTemp => parseInt(arrTemp, 10));
 
     miniMaxSum(arr);
 }
-
-miniMaxSum([1,2,3,4,5]);
