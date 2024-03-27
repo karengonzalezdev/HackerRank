@@ -1,3 +1,5 @@
+//Find the median of an array
+
 function findMedian(arr) {
     arr.sort((a, b) => a - b);
     return console.log(arr[Math.floor(arr.length / 2)]);
